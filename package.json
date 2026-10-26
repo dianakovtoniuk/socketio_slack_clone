@@ -2,8 +2,10 @@
   "name": "socketio201",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "slackClone/slack.js",
   "scripts": {
+    "start": "node slackClone/slack.js",
+    "start:namespaces": "node namespaces/namespaces.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

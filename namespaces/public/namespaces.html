@@ -42,8 +42,8 @@
 
 <script>
 
-    const socket = io('http://localhost:8001');
-    const adminSocket = io('http://localhost:8001/admin');
+    const socket = io();
+    const adminSocket = io('/admin');
     socket.on('connect',()=>{
         //do connect type stuff
         console.log("Successfully joined the main ns");
