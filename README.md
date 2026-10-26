@@ -60,6 +60,3 @@ Open http://localhost:9000/slack.html
 - Messages are stored in memory only and are lost when the server restarts.
 - To see live namespace updates, open http://localhost:9000/change-ns while the chat is open.
 
-## License
-
-ISC
